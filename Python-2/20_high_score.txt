@@ -1,3 +1,3 @@
-Played for range 0 to 100. High score is
-1250
-made by	Amrit
+Played for range 0 to 1000. High score is
+8333
+made by	yug

@@ -1,7 +1,7 @@
 a = "Amrit"       # An +ve index starts with 0. -ve index starts from end of the name.-ve index starts with -1.
 print(a[1:2])       
 print(a[0:5])         #This will print from index 0 to 4 only. NOT 5.
-print(a[-6:-1])       #This will print from index -6  to -2 and NOT -1.
+print(a[-5:-1])       #This will print from index -6  to -2 and NOT -1.
 print(a[-1])          #This will print the last letter ( first letter from end).
 print(a[0])           #Thsi will print the first letter.
 print(a[4])           #Thsi will print last letter.
@@ -16,3 +16,6 @@ print(b[0:6:2])       #This will print every 2nd character of the string b.Print
 c = "123456789"
 print(c[0::3])         #This will print every 3rd character of the string b.Printing will strat with 1st character then 1+3=4th charcter then 4+3= 7th carachter.
 print(c[1::3])         #This will print every 3rd character of the string b.Printing will strat with 2nd character then 2+3=5th charcter then 5+3= 8th carachter.
+
+
+# for [start:end:step] , it prints with a gap of step-1.

@@ -8,7 +8,7 @@ print(''' Rules of the game are:-
 
 a = int(input("Enter your choice, 1 for stone , 2 for paper and 3 for scissor\n"))
 
-b = random.randrange(0,4)              #random modules range is  like list/index range it also donot covers last one.
+b = random.randrange(1,4)              #random modules range is  like list/index range it also donot covers last one.
                                        #randrange attribute of random module allows to set range for selection.
 if a==1 and b ==2 : 
     print("You lose! Computer chosed paper(2) ")

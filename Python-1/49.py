@@ -8,4 +8,4 @@ b = open( "49_3.txt", "rt")
 
 c = b.read()
 print(c)
-b.close
+b.close()

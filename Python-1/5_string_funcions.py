@@ -11,7 +11,7 @@ print(a.endswith("d"))            #This will also reasult in TRUE.
 
 print(a.count("o"))               #This will count the total numbers of small o in the string a.
 print(a.count("P"))               #This will count the total numbers of capital P in the string a.
-print(a.count("easy"))            #This will count the total numbers of capital easy in the string a.
+print(a.count("easy"))            #This will count the total numbers of small easy in the string a.
 
 b = "my name is Amrit"
 print(b.capitalize())             #This will make the first letter of the string b capital. (in the print NOT in the code)
@@ -21,7 +21,7 @@ print(b.find("Anurag"))           #If "Anurag" is not available. It will print -
 print(b.find("my"))               #If "my" is available.It will print its position as 0 because the string starts with "my".
 print(b.find("i"))                #This function ONLY states the FIRST occurance. i first occurs in "is".
 
-print(b.replace("my name","this"))     #This will replace "my" with "this". It replaces all occurances.
+print(b.replace("my name","this"))     #This will replace "my name" with "this". It replaces all occurances.
 
 
 c = "                         I am a   good boy    ."
