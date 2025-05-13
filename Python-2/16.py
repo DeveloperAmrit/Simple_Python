@@ -32,7 +32,7 @@ class principal(teacher):
     def details(self):
         
         super().details()
-        print("I am the pricipal of ", principal.company,)
+        print(f"{self.name} is the pricipal of ", self.company,)
 
 a = principal()
 

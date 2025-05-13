@@ -35,6 +35,11 @@ Alok.changesalary(300)
 print(Alok.salary)
 
 
+Anjali = employee()       # denter method has permanently changed the salary attribute of the class employee
+
+print(Anjali.salary)
+
+
 
 
 

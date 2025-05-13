@@ -1,5 +1,5 @@
-class amrit():                                 #class consist of a object. Here object 1 is amrit().
-         def a(self):                           # Objedct is the collection of functions.
+class amrit():                                 
+         def a(self):                           # class is the collection of functions.
              print("Name is ",self.name)             #Each function uses some elements.            
              print("Roll no is", self.roll)         # self is later replaced by a variable.  
                                                     #These elements are filled when the function is to be called.
@@ -9,7 +9,8 @@ class amrit():                                 #class consist of a object. Here 
 
 
 
-c = amrit()                                   # When we call a class.All its functions are called.
+c = amrit()                                 # c is an object (instance) of class amrit 
+                                            # When we call a class.All its functions are called.
                                               #You can use the functions as you desire.
 c.name = "Alok ranjan"                        #You just have to fill elements of the function that you are going to call. 
 c.roll = "5"                                  # Here we have to call a() so we are filling elements of a()
