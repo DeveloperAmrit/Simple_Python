@@ -17,3 +17,9 @@ for c in range(101):
         continue
     print(c)
 
+# Pass does literally nothing, it doesnot causes direct jump to next iteration
+
+for d in range(10):
+    if d%2==0:
+        pass
+    print(d)
